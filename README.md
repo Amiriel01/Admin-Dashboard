@@ -1,6 +1,6 @@
 # Admin-Dashboard
 
-**Obective**
+**Obective:**
 
 I created an admin dashboard using HTML and CSS. 
 
