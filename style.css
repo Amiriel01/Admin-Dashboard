@@ -255,7 +255,7 @@ input {
 
 .resources {
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 3;
     grid-column-start: 4;
     grid-column-end: 5;
     background-color:  rgb(215, 215, 238);
