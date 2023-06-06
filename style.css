@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
 .container {
     display: grid;
     grid-template-columns: 10rem, 11rem, 11rem, 15rem;
