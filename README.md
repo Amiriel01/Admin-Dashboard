@@ -3,7 +3,7 @@ Work in Progress
 
 **Obective**
 
-I am creating an admin dashboard using HTML and CSS. 
+I created an admin dashboard using HTML and CSS. 
 
 ***Completed Dashboard Image***
 
