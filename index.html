@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="dashboard-dropdown closed">
+            <li class="dashboard">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+                <a class="dashboard-text">Dashboard</a>
+            </li>
+            <ul class="dashboard-list">
+                <li class="home hide">
+                    <img src="images/home.svg" id="home-icon" alt="House Icon">
+                    <a href="home-text">Home</a>
+                </li>
+                <li class="photo-library hide">
+                    <img src="images/photo.svg" id="photo-icon" alt="Photo Icon">
+                    <a href="photo-text">Photos</a>
+                </li>
+                <li class="profiles hide">
+                    <img src="images/cat.svg" id="profile-icon" alt="Cartoon Cat Face Icon">
+                    <a href="profile-text">Profiles</a>
+                </li>
+                <li class="newsletter hide">
+                    <img src="images/news.svg" id="newsletter-icon" alt="Newspaper Icon">
+                    <a href="newsletter-text">Newsletter</a>
+                </li>
+                <li class="contact hide">
+                    <img src="images/contact.svg" id="contact-icon" alt="Envelope Icon">
+                    <a href="contact-text">Contact Us</a>
+                </li>
+                <li class="faq hide">
+                    <img src="images/faq.svg" id="faq-icon" alt="Question Mark Icon">
+                    <a href="faq-text">FAQs</a>
+                </li>
+            </ul>
+        </ul>
+        <div class="header">
+            <div class="line1">
+                <div class="searches1">
+                    <img src="images/search.svg" id="search-img" alt="Search Icon">
+                    <form role="search-bar" id="search">
+                        <input type="search" id="search" name="search" placeholder="Search Site"
+                            aria-label="Search through site content here">
+                        <button id="search-button">Search</button>
+                    </form>
+                </div>
+                <div class="searches2">
+                    <img src="images/notification.svg" id="notification-icon" alt="Bell Icon">
+                    <img src="images/cat.png" id="cat-small" alt="Small Cartoon Cat Icon">
+                    <div id="paws-small">Paws Adoption Agency</div>
+                </div>
+            </div>
+            <div class="line2">
+                <div class="start-text">
+                    <img src="images/cat.png" id="cat-large" alt="Large Cartoon Cat Icon">
+                    <div id="paws-large">Paws Adoption Agency</div>
+                </div>
+                <div class="end-buttons">
+                    <button id="new-button">New Cats</button>
+                    <button id="donate-button">Donate</button>
+                    <button id="share-button">Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="new-arrivals">
+            <div id="new-text">New Arrivals!</div>
+            <div class="new-profiles">
+                <div class="new-space">
+                    <div class="new1">
+                        <img src="images/linus.jpg" id="linus" alt="Multi-Colored Cat">
+                        <div class="name-info-buttons">
+                            <div id="new1-name">Linus</div>
+                            <div id="new1-info">Friendly! He would make a great family pet.</div>
+                            <div class="icon-buttons">
+                                <img src="images/heart.svg" alt="Heart Icon">
+                                <img src="images/chat.svg" alt="Chat Icon">
+                                <img src="images/share.svg" alt="Share Icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new2">
+                        <img src="images/sally.jpg" id="sally" alt="Blond Cat with Green Eyes">
+                        <div class="name-info-buttons">
+                            <div id="new2-name">Sally</div>
+                            <div id="new2-info">Adorable! She is great with other cats.
+                            </div>
+                            <div class="icon-buttons">
+                                <img src="images/heart.svg" alt="Heart Icon">
+                                <img src="images/chat.svg" alt="Chat Icon">
+                                <img src="images/share.svg" alt="Share Icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured">
+            <div id="featured-text">Featured Felines!</div>
+            <div class="featured-profiles">
+                <div class="featured1">
+                    <img src="images/abby.jpg" id="abby" alt="Brown Cat with Green Eyes">
+                    <div class="name-info-buttons">
+                        <div id="featured1-name">Abby</div>
+                        <div id="featured1-info">Loveable and Afftectionate! She would make a great pet.
+                        </div>
+                        <div class="icon-buttons">
+                            <img src="images/heart.svg" alt="Heart Icon">
+                            <img src="images/chat.svg" alt="Chat Icon">
+                            <img src="images/share.svg" alt="Share Icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="featured2">
+                    <img src="images/jacks.jpg" id="jacks" alt="Orange Cat with Brown Eyes">
+                    <div class="name-info-buttons">
+                        <div id="featured2-name">Jacks</div>
+                        <div id="featured2-info">Shy and Sweet! He would be a great cat for a single pet home.</div>
+                        <div class="icon-buttons">
+                            <img src="images/heart.svg" alt="Heart Icon">
+                            <img src="images/chat.svg" alt="Chat Icon">
+                            <img src="images/share.svg" alt="Share Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="events">
+            <div id="events-text">Upcoming Events</div>
+            <div class="event-park">
+                <div class="event-img">
+                    <img src="images/park.jpg" id="park-image" alt="Cat on a park bench">
+                    <div id="park-event">May 3rd from 8am-12pm</div>
+                </div>
+                <div id="park-info">This is a fundraising event with food, music, and games.</div>
+            </div>
+            <div class="event-adoption">
+                <div class="event-img">
+                    <img src="images/adoption.jpg" id="adoption-image" alt="Orange Cat Sitting Outside">
+                    <div id="adoption-event">May 17th from 10am-5pm</div>
+                </div>
+                <div id="adoption-info">This is an adoption event with discounted adoption rates.</div>
+            </div>
+            <div class="event-reading">
+                <div class="event-img">
+                    <img src="images/reading.jpg" id="reading-image" alt="Cat with Book">
+                    <div id="reading-event">May 30th from 9am-1pm</div>
+                </div>
+                <div id="reading-info">This is a volunteer event for children to read to the cats.</div>
+            </div>
+        </div>
+        <div class="resources">
+            <div id="resources-text">Helpful Links</div>
+            <ul>
+                <a href="#">
+                    <li>Adoption Prices</li>
+                </a>
+                <a href="#">
+                    <li>Adoption Criteria Checklist</li>
+                </a>
+                <a href="#">
+                    <li>Services Included in Adoption</li>
+                </a>
+                <a href="#">
+                    <li>Local Vet List</li>
+                </a>
+                <a href="#">
+                    <li>Recommended Items to Buy</li>
+                </a>
+            </ul>
+        </div>
+        <div class="empty"></div>
+    </div>
+
+</body>
+
+</html>
