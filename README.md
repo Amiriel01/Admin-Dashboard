@@ -2,7 +2,7 @@
 
 **Obective:**
 
-I created an admin dashboard using HTML and CSS. 
+I created an admin dashboard using HTML, CSS, and jQuery. 
 
 ***Completed Dashboard Image***
 
@@ -10,7 +10,7 @@ I created an admin dashboard using HTML and CSS.
 
 ***Features***
 
-1. The dashboard bar has six icon links that are set up to be routed to other pages.
+1. The dashboard bar has six icon links that are set up to be routed to other pages. The dashboard bar toggles shown and hidden for the six icon links using jQuery.
 2. The header has a search bar and buttons to help you navigate the website. 
 3. The page has an events section that can be updated regulary.
 4. It also has a helpful links section that is ready to be routed to the pages listed.
