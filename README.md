@@ -6,7 +6,14 @@ I created an admin dashboard using HTML, CSS, and jQuery.
 
 ***Completed Dashboard Image***
 
-![](images/completed.png)
+Closed Dashboard Menu:
+
+![](dist/images/closed.png)
+
+Open Dashboard Menu:
+
+![](/dist/images/open.png)
+
 
 ***Features***
 
