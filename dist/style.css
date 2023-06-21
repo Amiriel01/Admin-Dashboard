@@ -16,6 +16,7 @@ body,
     display: grid;
     grid-template-columns: 10rem, 11rem, 11rem, 15rem;
     grid-template-rows: 6rem, 10rem, 10rem;
+    background-color: rgb(175, 241, 214)
 }
 
 #home-icon,
@@ -23,12 +24,12 @@ body,
 #profile-icon,
 #newsletter-icon,
 #contact-icon,
-#faq-icon {
+#faq-icon{
     height: 40px;
     width: 40px;
 }
 
-.dashboard {
+.dashboard-dropdown {
     font-size: 24px;
     background-color: rgb(175, 241, 214);
     grid-row-start: 1;
@@ -37,8 +38,16 @@ body,
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 4rem;
+
 }
 
+.dashboard-list {
+    align-items: flex-start;
+}
+
+.dashboard,
 .home,
 .photo-library,
 .profiles,
@@ -47,10 +56,27 @@ body,
 .faq {
     display: flex;
     align-items: center;
+    padding-bottom: 1rem;
+    cursor: pointer;
 }
+
+.dashboard {
+    padding-top: 2rem;
+    font-weight: bold;
+    padding-bottom: 6rem;
+}
+
+.dashboard-list {
+    display: none;
+}
+
+/* .dashboard:hover {
+    display: block;
+} */
 
 a {
     text-decoration: none;
+    display: block;
 }
 
 a:hover {
